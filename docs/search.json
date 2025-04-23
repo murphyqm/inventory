@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Adventurer’s Inventory",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\nHere’s a little statblock\nHere is some text inside the stat block\nHere is some more text\n\n\n\nHere is a wide/flexi callout block, with no title included.\n\n\nYou can also put these in columns etc. as desired.\nCurrently, this is what code blocks look like:\n# This is a comment\n\nx = 34\ny =23\nz = x * y\nI would like to style these as a scroll or in a way that matches the stat block."
+  }
+]

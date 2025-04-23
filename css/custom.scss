@@ -1,0 +1,41 @@
+/*-- scss:rules --*/
+$web-font-path: false;  // disable Google Fonts
+
+/*-- scss:defaults --*/
+// Typography
+$font-family-serif: 'EB Garamond';
+$font-family-sans-serif: 'Noto Sans';
+$font-family-monospace: 'Overpass Mono';
+$font-size-root: 16px;
+
+// Base document colors
+$body-bg: #fefdfd;
+$body-color: #252320;
+$link-color: #283618;
+$navbar-bg: #fdf1dc;
+
+// Code blocks
+$code-block-bg-alpha: -.6;
+
+/*-- scss:rules --*/
+.stat-block, .stat-block-wide {
+    background-color: #fdf1dc;
+    color: #252320;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-bottom: 3px solid #e19a2e;
+    border-top: 3px solid #e19a2e;
+    border-left: 1px solid #e19a2e;
+    border-right: 1px solid #e19a2e;
+    width: 50%;
+    margin: auto;
+    font-size: .8rem;
+    box-shadow: 7px 7px 5px 2px #c5bcad;
+    }
+
+.stat-block-wide {
+    width: 90%;
+    margin: auto;
+    }

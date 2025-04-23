@@ -1,0 +1,39 @@
+---
+title: "Adventurer's Inventory"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+:::{.stat-block}
+### Here's a little statblock
+
+Here is some text inside the stat block
+
+Here is some more text
+:::
+
+</br>
+
+:::{.stat-block-wide}
+
+Here is a wide/flexi callout block, with no title included. 
+
+:::
+
+</br>
+
+You can also put these in columns etc. as desired.
+
+Currently, this is what code blocks look like:
+
+```python
+# This is a comment
+
+x = 34
+y =23
+z = x * y
+```
+
+I would like to style these as a scroll or in a way that matches the stat block.

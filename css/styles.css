@@ -1,0 +1,31 @@
+/* css styles */
+
+@import "fonts.css";
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'EB Garamond', serif;
+    color: #8f3723;
+    font-variant-caps: small-caps;
+    border-bottom: solid 2px #8f3723;
+
+}
+
+a.navbar-brand, a.nav-link {
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    color: #8f3723;
+    font-variant-caps: small-caps;
+}
+
+.navbar {
+    border-bottom: 3px solid #e19a2e;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.sidebar nav[role=doc-toc]>h2, .sidebar nav[role=doc-toc]>.h2 {
+    font-size: .875rem;
+    font-family: 'EB Garamond', serif;
+}

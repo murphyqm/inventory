@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs/
+
+website:
+  cookie-consent: true
+  title: "Adventurer's Inventory"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: [css/custom.scss, cosmo]
+    css: [css/styles.css, css/fonts.css]
+    toc: true
+
+
+
