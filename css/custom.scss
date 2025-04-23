@@ -39,3 +39,9 @@ $code-block-bg-alpha: -.6;
     width: 90%;
     margin: auto;
     }
+
+.code-with-copy {
+    background: radial-gradient(#fdf1dc, #f5deb3);
+	box-shadow: inset 0 0 5px #e19a2e;
+    color: #252320;
+    }
